@@ -15,3 +15,9 @@ $ vagrant up
 ```
 
 Once it is setup, visit `http://interactive-figures.dev`.
+
+When you make changes to the configuration you should export these and commit them to git:
+
+```
+drush @interactive-figures.dev cex -y
+```
