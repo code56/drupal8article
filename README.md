@@ -10,7 +10,7 @@ Ensure the you have the following installed:
 ## Instructions
 
 ```
-$ composer install
+$ COMPOSER=composer-setup.json composer install
 $ vagrant up
 ```
 

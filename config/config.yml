@@ -43,8 +43,8 @@ drush_make_options: "--no-gitinfofile"
 
 # Set 'build_makefile' to 'false' and this to 'true' if you are using a
 # composer based site deployment strategy.
-build_composer: false
-drupal_composer_path: "{{ config_dir }}/drupal.composer.json"
+build_composer: true
+drupal_composer_path: "{{ config_dir }}/../composer.json"
 drupal_composer_install_dir: "/var/www/interactive-figures"
 drupal_composer_dependencies: []
 
