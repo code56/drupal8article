@@ -1,0 +1,14 @@
+uuid: 8c3adc9c-72b8-4692-a177-4102cf7c1d32
+name: 'Interactive Figures'
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

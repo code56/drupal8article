@@ -1,0 +1,5 @@
+name: Interactive Figures Custom
+type: module
+description: Custom module for interactive figures
+core: 8.x
+package: ifigs

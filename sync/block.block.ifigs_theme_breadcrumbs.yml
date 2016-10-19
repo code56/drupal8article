@@ -1,0 +1,22 @@
+uuid: 9d0019af-1797-4032-aa67-c4f89806934f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ifigs_theme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: ifigs_theme_breadcrumbs
+theme: ifigs_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
