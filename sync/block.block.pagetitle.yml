@@ -1,14 +1,12 @@
-uuid: 1bfb0052-0165-4603-8fdd-e3dfe2e8a166
+uuid: bf0fa59f-0afa-4dbf-ac63-6e1faebf105d
 langcode: en
 status: true
 dependencies:
   theme:
     - ifigs_theme
-_core:
-  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
-id: ifigs_theme_page_title
+id: pagetitle
 theme: ifigs_theme
-region: content
+region: header
 weight: -8
 provider: null
 plugin: page_title_block
