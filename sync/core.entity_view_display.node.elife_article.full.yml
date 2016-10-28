@@ -1,0 +1,34 @@
+uuid: 4f6872ff-610f-4cf6-8a06-2a1dae4942af
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.elife_article.body
+    - field.field.node.elife_article.field_abstract_
+    - node.type.elife_article
+  module:
+    - text
+    - user
+id: node.elife_article.full
+targetEntityType: node
+bundle: elife_article
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  field_abstract_:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,36 @@
+uuid: fdd2898d-f4f2-4b92-946c-99db1c83dfb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.elife_article.body
+    - field.field.node.elife_article.field_abstract_
+    - node.type.elife_article
+  module:
+    - text
+    - user
+id: node.elife_article.teaser
+targetEntityType: node
+bundle: elife_article
+mode: teaser
+content:
+  body:
+    label: visually_hidden
+    type: text_summary_or_trimmed
+    weight: 2
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_abstract_:
+    type: text_trimmed
+    weight: 1
+    label: above
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

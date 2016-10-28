@@ -1,0 +1,33 @@
+uuid: 24ee3c33-253f-43a8-85de-449f538318cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.elife_article.body
+    - field.field.node.elife_article.field_abstract_
+    - node.type.elife_article
+  module:
+    - text
+    - user
+id: node.elife_article.default
+targetEntityType: node
+bundle: elife_article
+mode: default
+content:
+  body:
+    label: above
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  field_abstract_:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

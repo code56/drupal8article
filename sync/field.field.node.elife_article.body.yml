@@ -1,0 +1,22 @@
+uuid: 9bb112d6-128c-4023-8280-73f0348b2301
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.elife_article
+  module:
+    - text
+id: node.elife_article.body
+field_name: body
+entity_type: node
+bundle: elife_article
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

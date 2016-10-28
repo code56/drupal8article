@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_abstract
     - node.type.page
   module:
     - text
@@ -21,6 +22,12 @@ content:
     weight: 100
     settings: {  }
     third_party_settings: {  }
+  field_abstract:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
   links:
     weight: 101
 hidden: {  }

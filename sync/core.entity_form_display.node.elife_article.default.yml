@@ -1,19 +1,17 @@
-uuid: d24e14f2-1801-4d07-b53d-06126a1db5ca
+uuid: 42091fb7-56a2-4402-8bf8-7531d3627d4b
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
-    - field.field.node.page.field_abstract
-    - node.type.page
+    - field.field.node.elife_article.body
+    - field.field.node.elife_article.field_abstract_
+    - node.type.elife_article
   module:
     - path
     - text
-_core:
-  default_config_hash: KSvzyFhdLuxniTsunUnUfpfMmod2l57GibtVjL8ymHM
-id: node.page.default
+id: node.elife_article.default
 targetEntityType: node
-bundle: page
+bundle: elife_article
 mode: default
 content:
   body:
@@ -29,13 +27,14 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
-  field_abstract:
+  field_abstract_:
     weight: 32
     settings:
-      size: 60
+      rows: 9
+      summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
-    type: text_textfield
+    type: text_textarea_with_summary
   path:
     type: path
     weight: 30
