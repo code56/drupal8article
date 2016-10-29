@@ -1,0 +1,22 @@
+uuid: caf90fbb-8301-48b9-826b-beaa1efad7c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_references
+    - node.type.elife_article
+  module:
+    - text
+id: node.elife_article.field_references
+field_name: field_references
+entity_type: node
+bundle: elife_article
+label: References
+description: 'the references '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

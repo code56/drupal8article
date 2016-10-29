@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.elife_article.body
     - field.field.node.elife_article.field_abstract_
+    - field.field.node.elife_article.field_references
     - node.type.elife_article
   module:
     - path
@@ -29,6 +30,14 @@ content:
     third_party_settings: {  }
   field_abstract_:
     weight: 32
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+  field_references:
+    weight: 33
     settings:
       rows: 9
       summary_rows: 3

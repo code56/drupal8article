@@ -11,8 +11,8 @@ id: node.elife_article.body
 field_name: body
 entity_type: node
 bundle: elife_article
-label: Body
-description: ''
+label: 'Main text'
+description: 'the intro the main body, results, conclusions '
 required: false
 translatable: true
 default_value: {  }

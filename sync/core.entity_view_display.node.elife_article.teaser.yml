@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.elife_article.body
     - field.field.node.elife_article.field_abstract_
+    - field.field.node.elife_article.field_references
     - node.type.elife_article
   module:
     - text
@@ -33,4 +34,5 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_references: true

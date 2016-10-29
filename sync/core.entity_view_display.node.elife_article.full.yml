@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.full
     - field.field.node.elife_article.body
     - field.field.node.elife_article.field_abstract_
+    - field.field.node.elife_article.field_references
     - node.type.elife_article
   module:
     - text
@@ -16,7 +17,7 @@ bundle: elife_article
 mode: full
 content:
   body:
-    label: hidden
+    label: above
     type: text_default
     weight: 2
     settings: {  }
@@ -27,6 +28,12 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
+  field_references:
+    type: text_default
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
   links:
     weight: 0
     settings: {  }
