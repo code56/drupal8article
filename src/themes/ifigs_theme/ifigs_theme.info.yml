@@ -7,13 +7,15 @@ version: VERSION
 core: 8.x
 libraries:
   - ifigs_theme/global-styling
+  # - ifigs_theme/fonts
+  - ifigs_theme/global-scripts
 regions:
   header: Header
   primary_menu: 'Primary menu'
   secondary_menu: 'Secondary menu'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
-  highlighted: Highlighted
+  highlighted: 'Highlighted'
   featured_top: 'Featured top'
   breadcrumb: Breadcrumb
   content: Content

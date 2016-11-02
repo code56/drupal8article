@@ -2,3 +2,17 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+
+# fonts:
+# 	css:
+# 		theme:
+# 			'//fonts/googleapis.com/css?family=Lato:400,700':
+# 			{type: external}
+
+
+global-scripts:
+	version: version
+	js:
+		js/scripts.js: {}
+	dependencies:
+		-core/jquery
