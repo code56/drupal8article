@@ -10,9 +10,9 @@ global-styling:
 # 			{type: external}
 
 
-global-scripts:
-	version: version
-	js:
-		js/scripts.js: {}
-	dependencies:
-		-core/jquery
+# global-scripts:
+# 	version: version
+# 	js:
+# 		js/scripts.js: {}
+# 	dependencies:
+# 		-core/jquery

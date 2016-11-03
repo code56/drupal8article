@@ -172,7 +172,7 @@ mysql_users:
 installed_extras:
   - adminer
   # - blackfire
-  # - drupalconsole
+  # drupalconsole
   # - elasticsearch
   - mailhog
   # - memcached
