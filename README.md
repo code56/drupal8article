@@ -21,3 +21,9 @@ When you make changes to the configuration you should export these and commit th
 ```
 drush @interactive-figures.dev cex -y
 ```
+
+Clear cache
+
+```
+drush @interactive-figures.dev cr
+```
