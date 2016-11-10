@@ -14,8 +14,9 @@ flurp:
 			css/flurp.css: {} 
 	js:
 		js/flurp.js: { }
-# 	dependencies:
-# 		assets/jquery: { }
+	dependencies:
+		core/drupal: {}
+		core/jquery: {}
 
 
 # rainbow:
