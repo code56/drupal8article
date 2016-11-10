@@ -3,14 +3,17 @@ global-styling:
   css:
     theme:
       css/style.css: { }
-      css/new_theme.css: {}
-  js:
-  	js/new_theme.js: {}
+  #     css/new_theme.css: {}
+  # js:
+  # 	js/new_theme.js: {}
 
-# something:
-# 	version: 1.x
-# 	js:
-# 		assets/something/something.js: { }
+flurp:
+	version: 1.x
+	css:
+		theme:
+			css/flurp.css: {} 
+	js:
+		js/flurp.js: { }
 # 	dependencies:
 # 		assets/jquery: { }
 
