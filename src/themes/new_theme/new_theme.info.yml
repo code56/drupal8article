@@ -5,6 +5,8 @@ package: Other
 core: 8.x
 libraries:
   - new_theme/global-styling
+  - new_theme/something
+  # - new_theme/rainbow
 
 base theme: classy
 #Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy

@@ -1,14 +1,24 @@
 global-styling:
+  version: 1.x 
   css:
     theme:
-      css/style.css: {}
+      css/style.css: { }
 
 
 something:
-  js:
-    assets/vendor/something/something.js: { }
- 
-# something:
+	version: 1.x
+	js:
+		assets/something/something.js: { }
+	dependencies:
+		assets/jquery: { }
+
+
+# rainbow:
 # 	version: 1.0
+# 	remote: https://github.com/xoxco/rainbow-text
+# 	licence: MIT
 # 	js:
-# 		assets/new_theme.js: { }
+# 		js/vendor/rainbow/rainbow.js: { }
+# 	dependencies:
+# 		core/jquery: { }
+
