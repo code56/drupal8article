@@ -1,0 +1,1 @@
+alert("flurp.js is loaded");

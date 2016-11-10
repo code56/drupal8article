@@ -1,16 +1,18 @@
 global-styling:
-  version: 1.x 
+  version : VERSION
   css:
     theme:
       css/style.css: { }
+      css/new_theme.css: {}
+  js:
+  	js/new_theme.js: {}
 
-
-something:
-	version: 1.x
-	js:
-		assets/something/something.js: { }
-	dependencies:
-		assets/jquery: { }
+# something:
+# 	version: 1.x
+# 	js:
+# 		assets/something/something.js: { }
+# 	dependencies:
+# 		assets/jquery: { }
 
 
 # rainbow:
