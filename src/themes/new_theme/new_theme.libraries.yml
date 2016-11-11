@@ -1,5 +1,4 @@
 global-styling:
-  version : VERSION
   css:
     theme:
       css/style.css: { }
@@ -8,15 +7,14 @@ global-styling:
   # 	js/new_theme.js: {}
 
 flurp:
-	version: 1.x
-	css:
-		theme:
-			css/flurp.css: {} 
-	js:
-		js/flurp.js: { }
-	dependencies:
-		core/drupal: {}
-		core/jquery: {}
+  css:
+    theme:
+      css/flurp.css: {}
+  js:
+    js/flurp.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
 
 
 # rainbow:

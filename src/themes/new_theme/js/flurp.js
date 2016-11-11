@@ -1,10 +1,19 @@
+(function ($) {
+
+$(document).ready(function(){
+    alert("Hello world added js in the barktic.info!");  //here we can add our JS code
+  })
+
+}(jQuery));
+
+
 /*$(document).ready(function () {
 
 alert("flurp.js is loaded");
 
 });
 */
-(function ($) {
+/*(function ($) {
   'use strict';
 
   Drupal.behaviors.awesome = {
@@ -13,4 +22,4 @@ alert("flurp.js is loaded");
     }
   };
 
-}(jQuery));
+}(jQuery));*/
