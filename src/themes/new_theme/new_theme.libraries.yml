@@ -5,6 +5,20 @@ global-styling:
   #     css/new_theme.css: {}
   # js:
   # 	js/new_theme.js: {}
+#how to tell what has to go to component and what to theme for the css? 
+
+
+#which theme css is overriding which? 
+# why is this library not loading?!!!
+# how can i inspect what its errors are? pimpmylog doesn't say anything 
+biovisexpressionbar:
+  js:
+    js/applicationbiovisexpressionbar.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery-ui
+
 
 flurp:
   css:
@@ -12,9 +26,15 @@ flurp:
       css/flurp.css: {}
   js:
     js/flurp.js: {}
+  #  js/applicationbiovisexpressionbar.js: {}
   dependencies:
     - core/drupal
     - core/jquery
+    - core/jquery-ui
+
+# trying to add the application-bio-vis-expression-bar interactive figure in the theme. 
+# but this library is not being called! 
+
 
 
 # rainbow:
