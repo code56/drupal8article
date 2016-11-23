@@ -27,3 +27,10 @@ Clear cache
 ```
 drush @interactive-figures.dev cr
 ```
+
+Enabling a theme
+
+```
+drush config-set system.theme default NAME_OF_CUSTOM_THEME
+
+```
