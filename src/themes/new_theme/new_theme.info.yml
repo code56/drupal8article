@@ -5,8 +5,9 @@ package: Other
 core: 8.x
 libraries:
   - new_theme/global-styling
-  - new_theme/flurp
   - new_theme/biovisexpressionbar
+  - new_theme/flurp
+
   # - new_theme/rainbow
 
 base theme: classy
