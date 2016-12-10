@@ -27,6 +27,7 @@ flurp:
   css:
     theme:
       css/flurp.css: {}
+      css/autocomplete.css: {}
   js:
     js/flurp.js: {}
   #  js/applicationbiovisexpressionbar.js: {}
