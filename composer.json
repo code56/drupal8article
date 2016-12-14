@@ -33,7 +33,8 @@
     "drupal/migrate_manifest": "^8.1",
     "drupal/migrate_upgrade": "~8.2.0-beta1",
     "drupal/restui": "^8.1",
-    "drupal/ctools": "8.3.0-alpha26"
+    "drupal/ctools": "8.3.0-alpha26",
+    "drupal/php": "8.1.*@dev"
   },
   "require-dev": {
     "drupal/drupal-extension": "~3.0",
